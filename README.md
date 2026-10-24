@@ -1,8 +1,5 @@
 # Royal Hunt
 
-
-    Am creat cate o biblioteca pentru fiecare pas plus o biblioteca care contine functiile pentru coada, una pentru arbore si una pentru graf. In biblioteca pentru graf se afla si rezolvarea pentru pasul 7 (acesta nu are biblioteca separata).
-
     Pas1:
     -creez coada in main si apelez functia citeste
     -in functia citeste, citesc datele din fisier linie cu linie, ignorand prima linie si le formatez astfel incat sa respecte regulile din cerinta:
@@ -55,6 +52,5 @@
     -matricea e sortata cu functia sorteaza care compara elementele a 2 linii, retine pozitia la care valorile nu mai sunt egale. Daca nu sunt ordonate interschimba liniile element cu element. Complexitatea temporala e O(n^2), adica O(nrtrase^2) in cazul meu, iar cea spatiala e O(1)
     -complexitatea temporala totala este O(E+V+n^2), iar spatiala O(V+n^2)
 
-    La final, in main eliberez memoria pentru heap, arbore, graf si coada cu functiile freegraf, deleteheap, freebst, freecoada. (Am scurgeri de memorie, dar nu am reusit sa le rezolv in timp util)
+    La final, in main eliberez memoria pentru heap, arbore, graf si coada cu functiile freegraf, deleteheap, freebst, freecoada.
 
-    Am adaugat comentarii si in cod unde explic mai detaliat ce se intampla.# Royal-Hunt
